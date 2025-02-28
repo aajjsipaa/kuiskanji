@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Kuis Kanji N5 - GitHub Ready</title>
+    <style>
+        :root {
+            --primary-color: #ff6b6b;
+            --primary-dark: #ee5253;
+            --secondary-color: #48dbfb;
+            --text-color: #2d3436;
+            --bg-color: #f7f7f7;
+            --card-bg: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1, h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .instructions {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary-color);
+        }
+        
+        .download-button {
+            display: block;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            border-radius: 30px;
+            text-align: center;
+            margin: 20px auto;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            max-width: 300px;
+        }
+        
+        .download-button:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .file-list {
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        
+        .file-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .github-instructions {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #6c5ce7;
+        }
+        
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #636e72;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download Kuis Kanji N5 - GitHub Ready</h1>
+        
+        <div class="instructions">
+            <h2>Cara Mengunduh Proyek</h2>
+            <p>Klik tombol di bawah untuk mengunduh semua file proyek dalam format ZIP. File ini siap untuk diunggah ke GitHub.</p>
+        </div>
+        
+        <a href="#" class="download-button" id="downloadButton">Download Project Files (ZIP)</a>
+        
+        <div class="file-list">
+            <h2>File yang Akan Diunduh</h2>
+            <ul>
+                <li>index.html - File utama aplikasi</li>
+                <li>style.css - File CSS untuk styling</li>
+                <li>script.js - File JavaScript dengan logika aplikasi</li>
+                <li>kanji_n5.json - Data kanji level N5</li>
+                <li>sw.js - Service Worker untuk fitur offline</li>
+                <li>favicon.svg - Ikon favorit untuk situs</li>
+                <li>manifest.json - Web App Manifest untuk PWA</li>
+                <li>README.md - Dokumentasi proyek</li>
+            </ul>
+        </div>
+        
+        <div class="github-instructions">
+            <h2>Petunjuk Upload ke GitHub</h2>
+            <ol>
+                <li>Buat repositori baru di GitHub</li>
+                <li>Extract file ZIP hasil unduhan</li>
+                <li>Upload semua file ke repositori GitHub yang baru dibuat</li>
+                <li>Aktifkan GitHub Pages dari menu Settings &gt; Pages</li>
+                <li>Pilih branch <code>main</code> sebagai sumber</li>
+                <li>Klik "Save" dan tunggu beberapa menit</li>
+                <li>Akses situs di <code>https://username.github.io/nama-repo</code></li>
+            </ol>
+        </div>
+        
+        <footer>
+            <p>© 2025 Kuis Kanji N5 - Created by Mafa | <a href="https://trakteer.id/celenganrindu" target="_blank">Donasi untuk pengembangan</a></p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Daftar file yang akan disertakan dalam ZIP
+            const files = [
+                'index.html',
+                'style.css',
+                'script.js',
+                'kanji_n5.json',
+                'sw.js',
+                'favicon.svg',
+                'manifest.json',
+                'README.md'
+            ];
+            
+            // Fungsi untuk mengunduh ZIP saat tombol diklik
+            document.getElementById('downloadButton').addEventListener('click', async function(e) {
+                e.preventDefault();
+                
+                // Menggunakan JSZip untuk membuat file ZIP
+                const JSZip = await loadJSZip();
+                const zip = new JSZip();
+                
+                // Menambahkan semua file ke ZIP
+                for (const filename of files) {
+                    try {
+                        const response = await fetch(filename);
+                        if (response.ok) {
+                            const content = await response.text();
+                            zip.file(filename, content);
+                        } else {
+                            console.warn(`File ${filename} tidak ditemukan`);
+                        }
+                    } catch (error) {
+                        console.error(`Error saat mengambil ${filename}:`, error);
+                    }
+                }
+                
+                // Menambahkan manifest.json jika belum ada
+                if (!files.includes('manifest.json')) {
+                    const manifestContent = JSON.stringify({
+                        "name": "Kuis Kanji N5",
+                        "short_name": "Kanji N5",
+                        "start_url": "index.html",
+                        "display": "standalone",
+                        "background_color": "#ffffff",
+                        "theme_color": "#ff6b6b",
+                        "icons": [
+                            {
+                                "src": "favicon.svg",
+                                "sizes": "512x512",
+                                "type": "image/svg+xml"
+                            }
+                        ]
+                    }, null, 2);
+                    zip.file('manifest.json', manifestContent);
+                }
+                
+                // Generate ZIP dan unduh
+                zip.generateAsync({type: 'blob'})
+                    .then(function(content) {
+                        const url = URL.createObjectURL(content);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = 'kuis-kanji-n5.zip';
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        URL.revokeObjectURL(url);
+                    });
+            });
+            
+            // Fungsi untuk memuat library JSZip
+            async function loadJSZip() {
+                return new Promise((resolve, reject) => {
+                    if (window.JSZip) {
+                        resolve(window.JSZip);
+                        return;
+                    }
+                    
+                    const script = document.createElement('script');
+                    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
+                    script.onload = () => resolve(window.JSZip);
+                    script.onerror = () => reject(new Error('Failed to load JSZip'));
+                    document.head.appendChild(script);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

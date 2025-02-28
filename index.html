@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Kanji N5</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ff6b6b">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+    <header>
+        <h1>Kuis Kanji N5</h1>
+        <div class="score-container">
+            Skor: <span id="score">0</span>/<span id="total-questions">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="quiz-container">
+            <div class="question-card">
+                <div class="question" id="question">?</div>
+                <div class="meaning" id="meaning">Arti akan muncul jika benar</div>
+                <div class="answers" id="answers"></div>
+                <div class="example" id="example">Contoh kalimat akan muncul jika benar</div>
+                <button class="next-btn" id="next-btn">Lanjut</button>
+            </div>
+        </section>
+
+        <section class="kanji-section">
+            <h2>Daftar Kanji N5</h2>
+            <div class="kanji-grid" id="kanji-grid"></div>
+            <div class="mastery-legend" style="margin-top: 15px; text-align: center; display: flex; justify-content: center; gap: 15px;">
+                <div><span style="display: inline-block; width: 15px; height: 15px; background-color: var(--correct-color); margin-right: 5px;"></span> Level 1</div>
+                <div><span style="display: inline-block; width: 15px; height: 15px; background-color: #4834d4; margin-right: 5px;"></span> Level 2</div>
+                <div><span style="display: inline-block; width: 15px; height: 15px; background-color: #9c88ff; margin-right: 5px;"></span> Level 3</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Kuis Kanji N5 - Created by Mafa | <a href="https://trakteer.id/celenganrindu" target="_blank">Donasi untuk pengembangan</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

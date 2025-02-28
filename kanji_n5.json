@@ -1,0 +1,1003 @@
+
+[
+  {
+    "kanji": "一",
+    "hiragana": "いち",
+    "arti": "Satu",
+    "contoh": {
+      "kalimat": "一人です。",
+      "hiragana": "ひとりです。",
+      "arti": "Sendirian."
+    }
+  },
+  {
+    "kanji": "二",
+    "hiragana": "に",
+    "arti": "Dua",
+    "contoh": {
+      "kalimat": "二人で行きます。",
+      "hiragana": "ふたりでいきます。",
+      "arti": "Pergi berdua."
+    }
+  },
+  {
+    "kanji": "三",
+    "hiragana": "さん",
+    "arti": "Tiga",
+    "contoh": {
+      "kalimat": "三冊の本があります。",
+      "hiragana": "さんさつのほんがあります。",
+      "arti": "Ada tiga buku."
+    }
+  },
+  {
+    "kanji": "四",
+    "hiragana": "よん、し",
+    "arti": "Empat",
+    "contoh": {
+      "kalimat": "四時に起きます。",
+      "hiragana": "よじにおきます。",
+      "arti": "Bangun jam empat."
+    }
+  },
+  {
+    "kanji": "五",
+    "hiragana": "ご",
+    "arti": "Lima",
+    "contoh": {
+      "kalimat": "五分待ってください。",
+      "hiragana": "ごふんまってください。",
+      "arti": "Tolong tunggu lima menit."
+    }
+  },
+  {
+    "kanji": "六",
+    "hiragana": "ろく",
+    "arti": "Enam",
+    "contoh": {
+      "kalimat": "六月に日本へ行きます。",
+      "hiragana": "ろくがつににほんへいきます。",
+      "arti": "Akan pergi ke Jepang pada bulan Juni."
+    }
+  },
+  {
+    "kanji": "七",
+    "hiragana": "なな、しち",
+    "arti": "Tujuh",
+    "contoh": {
+      "kalimat": "七時に寝ます。",
+      "hiragana": "しちじにねます。",
+      "arti": "Tidur jam tujuh."
+    }
+  },
+  {
+    "kanji": "八",
+    "hiragana": "はち",
+    "arti": "Delapan",
+    "contoh": {
+      "kalimat": "八時に学校へ行きます。",
+      "hiragana": "はちじにがっこうへいきます。",
+      "arti": "Pergi ke sekolah jam delapan."
+    }
+  },
+  {
+    "kanji": "九",
+    "hiragana": "きゅう、く",
+    "arti": "Sembilan",
+    "contoh": {
+      "kalimat": "九月に日本語の試験があります。",
+      "hiragana": "くがつににほんごのしけんがあります。",
+      "arti": "Ada ujian bahasa Jepang pada bulan September."
+    }
+  },
+  {
+    "kanji": "十",
+    "hiragana": "じゅう",
+    "arti": "Sepuluh",
+    "contoh": {
+      "kalimat": "十日に日本へ行きます。",
+      "hiragana": "とおかににほんへいきます。",
+      "arti": "Akan pergi ke Jepang pada tanggal sepuluh."
+    }
+  },
+  {
+    "kanji": "百",
+    "hiragana": "ひゃく",
+    "arti": "Seratus",
+    "contoh": {
+      "kalimat": "百円です。",
+      "hiragana": "ひゃくえんです。",
+      "arti": "Harganya seratus yen."
+    }
+  },
+  {
+    "kanji": "千",
+    "hiragana": "せん",
+    "arti": "Seribu",
+    "contoh": {
+      "kalimat": "千円貸してください。",
+      "hiragana": "せんえんかしてください。",
+      "arti": "Tolong pinjamkan seribu yen."
+    }
+  },
+  {
+    "kanji": "万",
+    "hiragana": "まん",
+    "arti": "Sepuluh ribu",
+    "contoh": {
+      "kalimat": "一万円があります。",
+      "hiragana": "いちまんえんがあります。",
+      "arti": "Saya punya sepuluh ribu yen."
+    }
+  },
+  {
+    "kanji": "日",
+    "hiragana": "ひ",
+    "arti": "Hari/Matahari",
+    "contoh": {
+      "kalimat": "今日は暑いです。",
+      "hiragana": "きょうはあついです。",
+      "arti": "Hari ini panas."
+    }
+  },
+  {
+    "kanji": "月",
+    "hiragana": "つき、げつ",
+    "arti": "Bulan",
+    "contoh": {
+      "kalimat": "月がきれいです。",
+      "hiragana": "つきがきれいです。",
+      "arti": "Bulannya indah."
+    }
+  },
+  {
+    "kanji": "火",
+    "hiragana": "ひ、か",
+    "arti": "Api",
+    "contoh": {
+      "kalimat": "火をつけないでください。",
+      "hiragana": "ひをつけないでください。",
+      "arti": "Tolong jangan menyalakan api."
+    }
+  },
+  {
+    "kanji": "水",
+    "hiragana": "みず、すい",
+    "arti": "Air",
+    "contoh": {
+      "kalimat": "水を飲みます。",
+      "hiragana": "みずをのみます。",
+      "arti": "Saya minum air."
+    }
+  },
+  {
+    "kanji": "木",
+    "hiragana": "き、もく",
+    "arti": "Pohon/Kayu",
+    "contoh": {
+      "kalimat": "公園に木があります。",
+      "hiragana": "こうえんにきがあります。",
+      "arti": "Ada pohon di taman."
+    }
+  },
+  {
+    "kanji": "金",
+    "hiragana": "きん、かね",
+    "arti": "Emas/Uang",
+    "contoh": {
+      "kalimat": "お金がありません。",
+      "hiragana": "おかねがありません。",
+      "arti": "Saya tidak punya uang."
+    }
+  },
+  {
+    "kanji": "土",
+    "hiragana": "つち、ど",
+    "arti": "Tanah",
+    "contoh": {
+      "kalimat": "土から植物が生えます。",
+      "hiragana": "つちからしょくぶつがはえます。",
+      "arti": "Tanaman tumbuh dari tanah."
+    }
+  },
+  {
+    "kanji": "本",
+    "hiragana": "ほん",
+    "arti": "Buku/Asal",
+    "contoh": {
+      "kalimat": "この本は面白いです。",
+      "hiragana": "このほんはおもしろいです。",
+      "arti": "Buku ini menarik."
+    }
+  },
+  {
+    "kanji": "語",
+    "hiragana": "ご",
+    "arti": "Bahasa",
+    "contoh": {
+      "kalimat": "日本語を勉強しています。",
+      "hiragana": "にほんごをべんきょうしています。",
+      "arti": "Saya sedang belajar bahasa Jepang."
+    }
+  },
+  {
+    "kanji": "人",
+    "hiragana": "ひと、じん",
+    "arti": "Orang",
+    "contoh": {
+      "kalimat": "人が多いです。",
+      "hiragana": "ひとがおおいです。",
+      "arti": "Banyak orang."
+    }
+  },
+  {
+    "kanji": "女",
+    "hiragana": "おんな、じょ",
+    "arti": "Wanita",
+    "contoh": {
+      "kalimat": "女の人が走っています。",
+      "hiragana": "おんなのひとがはしっています。",
+      "arti": "Wanita itu sedang berlari."
+    }
+  },
+  {
+    "kanji": "男",
+    "hiragana": "おとこ、だん",
+    "arti": "Pria",
+    "contoh": {
+      "kalimat": "男の人が歩いています。",
+      "hiragana": "おとこのひとがあるいています。",
+      "arti": "Pria itu sedang berjalan."
+    }
+  },
+  {
+    "kanji": "子",
+    "hiragana": "こ",
+    "arti": "Anak",
+    "contoh": {
+      "kalimat": "子どもが遊んでいます。",
+      "hiragana": "こどもがあそんでいます。",
+      "arti": "Anak-anak sedang bermain."
+    }
+  },
+  {
+    "kanji": "友",
+    "hiragana": "とも",
+    "arti": "Teman",
+    "contoh": {
+      "kalimat": "友達と話しています。",
+      "hiragana": "ともだちとはなしています。",
+      "arti": "Sedang berbicara dengan teman."
+    }
+  },
+  {
+    "kanji": "国",
+    "hiragana": "くに、こく",
+    "arti": "Negara",
+    "contoh": {
+      "kalimat": "どの国から来ましたか。",
+      "hiragana": "どのくにからきましたか。",
+      "arti": "Dari negara mana Anda berasal?"
+    }
+  },
+  {
+    "kanji": "学",
+    "hiragana": "がく",
+    "arti": "Belajar",
+    "contoh": {
+      "kalimat": "大学で勉強します。",
+      "hiragana": "だいがくでべんきょうします。",
+      "arti": "Belajar di universitas."
+    }
+  },
+  {
+    "kanji": "校",
+    "hiragana": "こう",
+    "arti": "Sekolah",
+    "contoh": {
+      "kalimat": "学校に行きます。",
+      "hiragana": "がっこうにいきます。",
+      "arti": "Pergi ke sekolah."
+    }
+  },
+  {
+    "kanji": "小",
+    "hiragana": "ちい、しょう",
+    "arti": "Kecil",
+    "contoh": {
+      "kalimat": "小さい犬がいます。",
+      "hiragana": "ちいさいいぬがいます。",
+      "arti": "Ada anjing kecil."
+    }
+  },
+  {
+    "kanji": "大",
+    "hiragana": "おお、だい",
+    "arti": "Besar",
+    "contoh": {
+      "kalimat": "大きな家です。",
+      "hiragana": "おおきないえです。",
+      "arti": "Rumah yang besar."
+    }
+  },
+  {
+    "kanji": "少",
+    "hiragana": "すこ、しょう",
+    "arti": "Sedikit",
+    "contoh": {
+      "kalimat": "少し待ってください。",
+      "hiragana": "すこしまってください。",
+      "arti": "Tolong tunggu sebentar."
+    }
+  },
+  {
+    "kanji": "多",
+    "hiragana": "おお、た",
+    "arti": "Banyak",
+    "contoh": {
+      "kalimat": "人が多いです。",
+      "hiragana": "ひとがおおいです。",
+      "arti": "Banyak orang."
+    }
+  },
+  {
+    "kanji": "時",
+    "hiragana": "とき、じ",
+    "arti": "Waktu/Jam",
+    "contoh": {
+      "kalimat": "何時ですか？",
+      "hiragana": "なんじですか？",
+      "arti": "Jam berapa sekarang?"
+    }
+  },
+  {
+    "kanji": "分",
+    "hiragana": "ふん、ぶん",
+    "arti": "Menit/Bagian",
+    "contoh": {
+      "kalimat": "五分待ってください。",
+      "hiragana": "ごふんまってください。",
+      "arti": "Tolong tunggu lima menit."
+    }
+  },
+  {
+    "kanji": "年",
+    "hiragana": "とし、ねん",
+    "arti": "Tahun",
+    "contoh": {
+      "kalimat": "今年は忙しいです。",
+      "hiragana": "ことしはいそがしいです。",
+      "arti": "Tahun ini sibuk."
+    }
+  },
+  {
+    "kanji": "名",
+    "hiragana": "な、めい",
+    "arti": "Nama",
+    "contoh": {
+      "kalimat": "お名前は何ですか？",
+      "hiragana": "おなまえはなんですか？",
+      "arti": "Siapa nama Anda?"
+    }
+  },
+  {
+    "kanji": "前",
+    "hiragana": "まえ、ぜん",
+    "arti": "Depan/Sebelum",
+    "contoh": {
+      "kalimat": "家の前に車があります。",
+      "hiragana": "いえのまえにくるまがあります。",
+      "arti": "Ada mobil di depan rumah."
+    }
+  },
+  {
+    "kanji": "後",
+    "hiragana": "あと、ご",
+    "arti": "Belakang/Setelah",
+    "contoh": {
+      "kalimat": "後で電話します。",
+      "hiragana": "あとででんわします。",
+      "arti": "Saya akan menelepon nanti."
+    }
+  },
+  {
+    "kanji": "山",
+    "hiragana": "やま",
+    "arti": "Gunung",
+    "contoh": {
+      "kalimat": "高い山があります。",
+      "hiragana": "たかいやまがあります。",
+      "arti": "Ada gunung yang tinggi."
+    }
+  },
+  {
+    "kanji": "川",
+    "hiragana": "かわ",
+    "arti": "Sungai",
+    "contoh": {
+      "kalimat": "川で泳ぎます。",
+      "hiragana": "かわでおよぎます。",
+      "arti": "Saya berenang di sungai."
+    }
+  },
+  {
+    "kanji": "花",
+    "hiragana": "はな",
+    "arti": "Bunga",
+    "contoh": {
+      "kalimat": "この花はきれいです。",
+      "hiragana": "このはなはきれいです。",
+      "arti": "Bunga ini indah."
+    }
+  },
+  {
+    "kanji": "魚",
+    "hiragana": "さかな、ぎょ",
+    "arti": "Ikan",
+    "contoh": {
+      "kalimat": "魚を食べます。",
+      "hiragana": "さかなをたべます。",
+      "arti": "Saya makan ikan."
+    }
+  },
+  {
+    "kanji": "上",
+    "hiragana": "うえ、じょう",
+    "arti": "Atas",
+    "contoh": {
+      "kalimat": "机の上に本があります。",
+      "hiragana": "つくえのうえにほんがあります。",
+      "arti": "Ada buku di atas meja."
+    }
+  },
+  {
+    "kanji": "中",
+    "hiragana": "なか、ちゅう",
+    "arti": "Tengah/Dalam",
+    "contoh": {
+      "kalimat": "箱の中に何がありますか？",
+      "hiragana": "はこのなかになにがありますか？",
+      "arti": "Apa yang ada di dalam kotak?"
+    }
+  },
+  {
+    "kanji": "下",
+    "hiragana": "した、か",
+    "arti": "Bawah",
+    "contoh": {
+      "kalimat": "机の下にかばんがあります。",
+      "hiragana": "つくえのしたにかばんがあります。",
+      "arti": "Ada tas di bawah meja."
+    }
+  },
+  {
+    "kanji": "左",
+    "hiragana": "ひだり",
+    "arti": "Kiri",
+    "contoh": {
+      "kalimat": "左に曲がってください。",
+      "hiragana": "ひだりにまがってください。",
+      "arti": "Tolong belok kiri."
+    }
+  },
+  {
+    "kanji": "右",
+    "hiragana": "みぎ",
+    "arti": "Kanan",
+    "contoh": {
+      "kalimat": "右に曲がってください。",
+      "hiragana": "みぎにまがってください。",
+      "arti": "Tolong belok kanan."
+    }
+  },
+  {
+    "kanji": "外",
+    "hiragana": "そと、がい",
+    "arti": "Luar",
+    "contoh": {
+      "kalimat": "外で遊びます。",
+      "hiragana": "そとであそびます。",
+      "arti": "Bermain di luar."
+    }
+  },
+  {
+    "kanji": "雨",
+    "hiragana": "あめ",
+    "arti": "Hujan",
+    "contoh": {
+      "kalimat": "雨が降っています。",
+      "hiragana": "あめがふっています。",
+      "arti": "Sedang hujan."
+    }
+  },
+  {
+    "kanji": "電",
+    "hiragana": "でん",
+    "arti": "Listrik",
+    "contoh": {
+      "kalimat": "電気をつけてください。",
+      "hiragana": "でんきをつけてください。",
+      "arti": "Tolong nyalakan lampu."
+    }
+  },
+  {
+    "kanji": "天",
+    "hiragana": "てん",
+    "arti": "Langit",
+    "contoh": {
+      "kalimat": "天気がいいです。",
+      "hiragana": "てんきがいいです。",
+      "arti": "Cuacanya bagus."
+    }
+  },
+  {
+    "kanji": "店",
+    "hiragana": "みせ、てん",
+    "arti": "Toko",
+    "contoh": {
+      "kalimat": "店で買い物をします。",
+      "hiragana": "みせでかいものをします。",
+      "arti": "Berbelanja di toko."
+    }
+  },
+  {
+    "kanji": "手",
+    "hiragana": "て",
+    "arti": "Tangan",
+    "contoh": {
+      "kalimat": "手を洗ってください。",
+      "hiragana": "てをあらってください。",
+      "arti": "Tolong cuci tangan."
+    }
+  },
+  {
+    "kanji": "古",
+    "hiragana": "ふる",
+    "arti": "Tua/Kuno",
+    "contoh": {
+      "kalimat": "これは古い家です。",
+      "hiragana": "これはふるいいえです。",
+      "arti": "Ini rumah tua."
+    }
+  },
+  {
+    "kanji": "新",
+    "hiragana": "あたら、しん",
+    "arti": "Baru",
+    "contoh": {
+      "kalimat": "新しい車を買いました。",
+      "hiragana": "あたらしいくるまをかいました。",
+      "arti": "Saya membeli mobil baru."
+    }
+  },
+  {
+    "kanji": "買",
+    "hiragana": "か",
+    "arti": "Beli",
+    "contoh": {
+      "kalimat": "本を買います。",
+      "hiragana": "ほんをかいます。",
+      "arti": "Saya membeli buku."
+    }
+  },
+  {
+    "kanji": "生",
+    "hiragana": "い、せい",
+    "arti": "Hidup/Mentah",
+    "contoh": {
+      "kalimat": "学生です。",
+      "hiragana": "がくせいです。",
+      "arti": "Saya seorang pelajar."
+    }
+  },
+  {
+    "kanji": "昼",
+    "hiragana": "ひる",
+    "arti": "Siang",
+    "contoh": {
+      "kalimat": "昼ごはんを食べましょう。",
+      "hiragana": "ひるごはんをたべましょう。",
+      "arti": "Mari makan siang."
+    }
+  },
+  {
+    "kanji": "口",
+    "hiragana": "くち",
+    "arti": "Mulut",
+    "contoh": {
+      "kalimat": "口を開けてください。",
+      "hiragana": "くちをあけてください。",
+      "arti": "Tolong buka mulut."
+    }
+  },
+  {
+    "kanji": "入",
+    "hiragana": "い、にゅう",
+    "arti": "Masuk",
+    "contoh": {
+      "kalimat": "部屋に入ります。",
+      "hiragana": "へやにはいります。",
+      "arti": "Saya masuk ke kamar."
+    }
+  },
+  {
+    "kanji": "出",
+    "hiragana": "で、しゅつ",
+    "arti": "Keluar",
+    "contoh": {
+      "kalimat": "家を出ます。",
+      "hiragana": "いえをでます。",
+      "arti": "Saya keluar dari rumah."
+    }
+  },
+  {
+    "kanji": "長",
+    "hiragana": "なが、ちょう",
+    "arti": "Panjang",
+    "contoh": {
+      "kalimat": "長い髪があります。",
+      "hiragana": "ながいかみがあります。",
+      "arti": "Memiliki rambut panjang."
+    }
+  },
+  {
+    "kanji": "高",
+    "hiragana": "たか、こう",
+    "arti": "Tinggi/Mahal",
+    "contoh": {
+      "kalimat": "この建物は高いです。",
+      "hiragana": "このたてものはたかいです。",
+      "arti": "Bangunan ini tinggi."
+    }
+  },
+  {
+    "kanji": "円",
+    "hiragana": "えん",
+    "arti": "Yen/Lingkaran",
+    "contoh": {
+      "kalimat": "百円です。",
+      "hiragana": "ひゃくえんです。",
+      "arti": "Harganya seratus yen."
+    }
+  },
+  {
+    "kanji": "北",
+    "hiragana": "きた、ほく",
+    "arti": "Utara",
+    "contoh": {
+      "kalimat": "北に山があります。",
+      "hiragana": "きたにやまがあります。",
+      "arti": "Ada gunung di utara."
+    }
+  },
+  {
+    "kanji": "南",
+    "hiragana": "みなみ、なん",
+    "arti": "Selatan",
+    "contoh": {
+      "kalimat": "南に住んでいます。",
+      "hiragana": "みなみにすんでいます。",
+      "arti": "Tinggal di selatan."
+    }
+  },
+  {
+    "kanji": "東",
+    "hiragana": "ひがし、とう",
+    "arti": "Timur",
+    "contoh": {
+      "kalimat": "東京に行きます。",
+      "hiragana": "とうきょうにいきます。",
+      "arti": "Pergi ke Tokyo."
+    }
+  },
+  {
+    "kanji": "西",
+    "hiragana": "にし、せい",
+    "arti": "Barat",
+    "contoh": {
+      "kalimat": "西に公園があります。",
+      "hiragana": "にしにこうえんがあります。",
+      "arti": "Ada taman di barat."
+    }
+  },
+  {
+    "kanji": "食",
+    "hiragana": "た、しょく",
+    "arti": "Makan",
+    "contoh": {
+      "kalimat": "食べ物がおいしいです。",
+      "hiragana": "たべものがおいしいです。",
+      "arti": "Makanannya enak."
+    }
+  },
+  {
+    "kanji": "飲",
+    "hiragana": "の、いん",
+    "arti": "Minum",
+    "contoh": {
+      "kalimat": "水を飲みます。",
+      "hiragana": "みずをのみます。",
+      "arti": "Saya minum air."
+    }
+  },
+  {
+    "kanji": "耳",
+    "hiragana": "みみ",
+    "arti": "Telinga",
+    "contoh": {
+      "kalimat": "耳が痛いです。",
+      "hiragana": "みみがいたいです。",
+      "arti": "Telinga saya sakit."
+    }
+  },
+  {
+    "kanji": "目",
+    "hiragana": "め、もく",
+    "arti": "Mata",
+    "contoh": {
+      "kalimat": "目が大きいです。",
+      "hiragana": "めがおおきいです。",
+      "arti": "Matanya besar."
+    }
+  },
+  {
+    "kanji": "見",
+    "hiragana": "み、けん",
+    "arti": "Melihat",
+    "contoh": {
+      "kalimat": "映画を見ます。",
+      "hiragana": "えいがをみます。",
+      "arti": "Saya menonton film."
+    }
+  },
+  {
+    "kanji": "聞",
+    "hiragana": "き、ぶん",
+    "arti": "Mendengar/Bertanya",
+    "contoh": {
+      "kalimat": "音楽を聞きます。",
+      "hiragana": "おんがくをききます。",
+      "arti": "Saya mendengarkan musik."
+    }
+  },
+  {
+    "kanji": "足",
+    "hiragana": "あし、そく",
+    "arti": "Kaki",
+    "contoh": {
+      "kalimat": "足が痛いです。",
+      "hiragana": "あしがいたいです。",
+      "arti": "Kaki saya sakit."
+    }
+  },
+  {
+    "kanji": "行",
+    "hiragana": "い、こう",
+    "arti": "Pergi",
+    "contoh": {
+      "kalimat": "学校に行きます。",
+      "hiragana": "がっこうにいきます。",
+      "arti": "Pergi ke sekolah."
+    }
+  },
+  {
+    "kanji": "来",
+    "hiragana": "く、らい",
+    "arti": "Datang",
+    "contoh": {
+      "kalimat": "友達が来ました。",
+      "hiragana": "ともだちがきました。",
+      "arti": "Teman saya datang."
+    }
+  },
+  {
+    "kanji": "社",
+    "hiragana": "しゃ",
+    "arti": "Perusahaan",
+    "contoh": {
+      "kalimat": "会社で働いています。",
+      "hiragana": "かいしゃではたらいています。",
+      "arti": "Saya bekerja di perusahaan."
+    }
+  },
+  {
+    "kanji": "休",
+    "hiragana": "やす",
+    "arti": "Istirahat",
+    "contoh": {
+      "kalimat": "休みの日は何をしますか？",
+      "hiragana": "やすみのひはなにをしますか？",
+      "arti": "Apa yang Anda lakukan di hari libur?"
+    }
+  },
+  {
+    "kanji": "車",
+    "hiragana": "くるま、しゃ",
+    "arti": "Mobil",
+    "contoh": {
+      "kalimat": "新しい車を買いました。",
+      "hiragana": "あたらしいくるまをかいました。",
+      "arti": "Saya membeli mobil baru."
+    }
+  },
+  {
+    "kanji": "道",
+    "hiragana": "みち、どう",
+    "arti": "Jalan",
+    "contoh": {
+      "kalimat": "この道を歩きます。",
+      "hiragana": "このみちをあるきます。",
+      "arti": "Saya berjalan di jalan ini."
+    }
+  },
+  {
+    "kanji": "空",
+    "hiragana": "そら、くう",
+    "arti": "Langit/Kosong",
+    "contoh": {
+      "kalimat": "空が青いです。",
+      "hiragana": "そらがあおいです。",
+      "arti": "Langitnya biru."
+    }
+  },
+  {
+    "kanji": "言",
+    "hiragana": "い、げん",
+    "arti": "Kata/Bicara",
+    "contoh": {
+      "kalimat": "何を言いましたか？",
+      "hiragana": "なにをいいましたか？",
+      "arti": "Apa yang Anda katakan?"
+    }
+  },
+  {
+    "kanji": "話",
+    "hiragana": "はな、わ",
+    "arti": "Berbicara/Cerita",
+    "contoh": {
+      "kalimat": "友達と話します。",
+      "hiragana": "ともだちとはなします。",
+      "arti": "Saya berbicara dengan teman."
+    }
+  },
+  {
+    "kanji": "読",
+    "hiragana": "よ、どく",
+    "arti": "Membaca",
+    "contoh": {
+      "kalimat": "本を読みます。",
+      "hiragana": "ほんをよみます。",
+      "arti": "Saya membaca buku."
+    }
+  },
+  {
+    "kanji": "書",
+    "hiragana": "か、しょ",
+    "arti": "Menulis",
+    "contoh": {
+      "kalimat": "手紙を書きます。",
+      "hiragana": "てがみをかきます。",
+      "arti": "Saya menulis surat."
+    }
+  },
+  {
+    "kanji": "立",
+    "hiragana": "た、りつ",
+    "arti": "Berdiri",
+    "contoh": {
+      "kalimat": "ここに立ってください。",
+      "hiragana": "ここにたってください。",
+      "arti": "Tolong berdiri di sini."
+    }
+  },
+  {
+    "kanji": "母",
+    "hiragana": "はは、ぼ",
+    "arti": "Ibu",
+    "contoh": {
+      "kalimat": "母は料理が上手です。",
+      "hiragana": "はははりょうりがじょうずです。",
+      "arti": "Ibu saya pandai memasak."
+    }
+  },
+  {
+    "kanji": "父",
+    "hiragana": "ちち、ふ",
+    "arti": "Ayah",
+    "contoh": {
+      "kalimat": "父は会社員です。",
+      "hiragana": "ちちはかいしゃいんです。",
+      "arti": "Ayah saya adalah pegawai perusahaan."
+    }
+  },
+  {
+    "kanji": "毎",
+    "hiragana": "まい",
+    "arti": "Setiap",
+    "contoh": {
+      "kalimat": "毎日勉強します。",
+      "hiragana": "まいにちべんきょうします。",
+      "arti": "Saya belajar setiap hari."
+    }
+  },
+  {
+    "kanji": "気",
+    "hiragana": "き",
+    "arti": "Perasaan/Udara",
+    "contoh": {
+      "kalimat": "気をつけてください。",
+      "hiragana": "きをつけてください。",
+      "arti": "Hati-hati."
+    }
+  },
+  {
+    "kanji": "白",
+    "hiragana": "しろ、はく",
+    "arti": "Putih",
+    "contoh": {
+      "kalimat": "白い服を着ています。",
+      "hiragana": "しろいふくをきています。",
+      "arti": "Saya memakai baju putih."
+    }
+  },
+  {
+    "kanji": "何",
+    "hiragana": "なに、なん",
+    "arti": "Apa",
+    "contoh": {
+      "kalimat": "これは何ですか？",
+      "hiragana": "これはなんですか？",
+      "arti": "Ini apa?"
+    }
+  },
+  {
+    "kanji": "週",
+    "hiragana": "しゅう",
+    "arti": "Minggu",
+    "contoh": {
+      "kalimat": "来週日本に行きます。",
+      "hiragana": "らいしゅうにほんにいきます。",
+      "arti": "Minggu depan saya akan pergi ke Jepang."
+    }
+  },
+  {
+    "kanji": "問",
+    "hiragana": "と、もん",
+    "arti": "Pertanyaan",
+    "contoh": {
+      "kalimat": "問題がわかりません。",
+      "hiragana": "もんだいがわかりません。",
+      "arti": "Saya tidak mengerti soalnya."
+    }
+  },
+  {
+    "kanji": "間",
+    "hiragana": "あいだ、かん",
+    "arti": "Antara/Ruang",
+    "contoh": {
+      "kalimat": "時間がありません。",
+      "hiragana": "じかんがありません。",
+      "arti": "Tidak ada waktu."
+    }
+  },
+  {
+    "kanji": "半",
+    "hiragana": "はん",
+    "arti": "Setengah",
+    "contoh": {
+      "kalimat": "七時半に起きます。",
+      "hiragana": "しちじはんにおきます。",
+      "arti": "Bangun jam setengah delapan."
+    }
+  },
+  {
+    "kanji": "今",
+    "hiragana": "いま、こん",
+    "arti": "Sekarang",
+    "contoh": {
+      "kalimat": "今何時ですか？",
+      "hiragana": "いまなんじですか？",
+      "arti": "Sekarang jam berapa?"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+
+{
+  "name": "Kuis Kanji N5",
+  "short_name": "Kanji N5",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff6b6b",
+  "description": "Aplikasi untuk berlatih kanji level N5 dengan fitur pelacakan kemajuan",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
