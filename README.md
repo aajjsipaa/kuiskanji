@@ -21,4 +21,4 @@ Aplikasi web sederhana untuk berlatih kanji level N5 dengan fitur pelacakan kema
 1. Push kode ini ke repositori GitHub Anda
 2. Aktifkan GitHub Pages pada repositori di Settings > Pages
 3. Pilih branch 'gh-pages' sebagai sumber
-4. Website akan tersedia di `https://username.github.io/repo-name`
+4. Website akan tersedia di `https://aajjsipaa.github.io/kuiskanji`
